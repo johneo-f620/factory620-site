@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Factory 620 LLC"
+title = "Hugo Creative Theme"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
@@ -20,8 +20,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Factory 620 LLC"
-	description = "Software for your Buiness"
+	name = "Your name"
+	description = "Your description"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -29,27 +29,27 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "Factory 620 LLC"
+		brand = "Hugo Creative Theme"
 
 		[params.navigation.links]
 			about     = "About"
-			# services  = "Services"
-			# portfolio = "Portfolio"
+			services  = "Services"
+			portfolio = "Portfolio"
 			contact   = "Contact"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Your business, powered by Factory 620"
-		subtitle   = "Web / mobile / desktop apps to give you a helping hand."
+		slogan     = "Your awesome slogan"
+		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
-		headline    = "Why Factory 620?"
-		description = "What good is latest technology if it makes your business needs take a back seat? Factory 620 believes it should be the other way around. A web site, a mobile or desktop app must bring value to you, whether by enhancing what you do best or by making the rough parts of your business smoother. <br/><br/> Want to update your web site yourself to show the answer to common questions from customers? Need a mobile app so that your employees can update inventory from the delivery location? That old spreasheet to stay on top of costs - is it getting a bit long in the tooth? Factory 620 can build a solution to help you run your business better."
+		headline    = "We've got what you need!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
 		buttonText  = "Get started!"
 
 
@@ -96,9 +96,9 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "Ready to talk about what Factory 620 can do for you? Call or email us to get started."
-		phone = "512-850-4843"
-		email = "info@factory620.com"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "123-456-6789"
+		email = "feedback@startbootstrap.com"
 
 	# Google Maps section
 	# [params.location]
