@@ -33,8 +33,8 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			about     = "About"
-			# services  = "Services"
-			# portfolio = "Portfolio"
+			services  = "Services"
+			portfolio = "Portfolio"
 			contact   = "Contact"
 
 
@@ -55,27 +55,27 @@ googleAnalytics = ""
 
 	# Service section
 	[params.services]
-		headline = "At your service"
-
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
-
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+		headline = "Services"
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+		icon = "fa-html5"
+		title = "Web Applications"
+		description = "Highly-interactive web applications"
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+		[[params.services.list]]
+		icon = "fa-mobile"
+		title = "Mobile Applications"
+		description = "For iOS and Android"
+
+		[[params.services.list]]
+		icon = "fa-building-o"
+		title = "Backend Applications"
+		description = "Server-side web applications that support front-end web and mobile applications"
+
+		[[params.services.list]]
+		icon = "fa-cogs"
+		title = "DevOps Practices"
+		description = "Implement and train Continuous Integration and Delievery and automation"
 
 
     # Portfolio modals
