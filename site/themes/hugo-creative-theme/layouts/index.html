@@ -12,21 +12,21 @@
             {{ partial "hero.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.about }}
-            {{ partial "about.html" . }}
+        {{ if .Site.Params.contact }}
+            {{ partial "contact.html" . }}
         {{ end }}
-
-
-        {{ if .Site.Params.services.list }}
-            {{ partial "services.html" . }}
-        {{ end }}
-
-
 
         {{ if .Site.Data.projects }}
             {{ partial "portfolio.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.services.list }}
+            {{ partial "services.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.about }}
+            {{ partial "about.html" . }}
+        {{ end }}
 
         {{ if .Site.Params.location }}
             {{ partial "location.html" . }}
@@ -37,10 +37,6 @@
             {{ partial "aside.html" . }}
         {{ end }}
         */}}
-
-        {{ if .Site.Params.contact }}
-            {{ partial "contact.html" . }}
-        {{ end }}
 
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}

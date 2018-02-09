@@ -32,18 +32,18 @@ googleAnalytics = ""
 		brand = "Factory 620 LLC"
 
 		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
 			contact   = "Contact"
+			portfolio = "Portfolio"
+			services  = "Services"
+			about     = "About"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Your business, powered by Factory 620"
-		subtitle   = "Web / mobile / desktop apps to give you a helping hand."
-		buttonText = "Find out more"
+		subtitle   = "Web site / mobile & desktop apps to give your business a helping hand."
+		buttonText = "Get Started!"
 
 
 	# About section
